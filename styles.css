@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f7d1cd; /* Color pastel rosa claro */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e2b3af;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #e9f5db; /* Color pastel verde claro */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #444;
+}
+
+.hero p {
+    color: #777;
+    margin-top: 10px;
+}
+
+.productos, .ofertas {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fbe7c6; /* Color pastel crema */
+}
+
+.productos h3, .ofertas h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.productos ul, .ofertas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.productos ul li, .ofertas ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.contacto {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e9d8f4; /* Color pastel violeta claro */
+    border-top: 2px solid #ddd;
+}
+
+.contacto h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.croquis {
+    max-width: 300px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f7d1cd; /* Color pastel rosa claro */
+    padding: 15px;
+    text-align: center;
+    margin-top: auto;
+    border-top: 2px solid #e2b3af;
+}
+    
